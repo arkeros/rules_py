@@ -1,17 +1,12 @@
-"""Release binary integrity hashes.
+"Generated during release by release_prep.sh, using integrity.jq"
 
-This file contents are entirely replaced during release publishing.
-The checked in content is only here to allow load() statements in the sources to resolve.
-"""
-
-# TEST DATA extracted from tools/integrity.bzl file within https://github.com/aspect-build/rules_py/releases/download/v1.1.0/rules_py-v1.1.0.tar.gz
 RELEASED_BINARY_INTEGRITY = {
-    "unpack-aarch64-apple-darwin": "e973717a34f3bc19a111d2326ca573bd310660851024217e057d276346fc0f6a",
-    "unpack-x86_64-apple-darwin": "3ebb392cd01b43804bee638b3e12c19d61a07487367e801bc936bd5fd469fc81",
-    "venv-aarch64-apple-darwin": "2f07120fc0a8bbc1ca7ce8b10d5df1b0637c235f66d2f7ad95105ada0792acb1",
-    "venv-x86_64-apple-darwin": "134269ced40240e757e2f6705e546d4f905b6e125fec775afe8bd3bfd8aac495",
-    "unpack-aarch64-unknown-linux-musl": "0f58e2ae3b29a9884f23eb48ded26b3d5aebf2cedb99461a291c9b4f533d2e64",
-    "unpack-x86_64-unknown-linux-musl": "a2bf95fa8ca2401e348f403a1d2dbc435da219fcaa546e0161bb516ac0e7494e",
-    "venv-aarch64-unknown-linux-musl": "5249e68cc18aaa93bf60c74c927a02d55b7f89722adbc0352d5c144f88ee637e",
-    "venv-x86_64-unknown-linux-musl": "ec524c9f9e5cf7f31168a1f74eddd8fa98033ecc229580f69990cd6f65d164dd",
+  "unpack-aarch64-apple-darwin": "66e4b88b5512be2903a9a4c968d598fe47507d4ca00302cabbfdb4230dde7805",
+  "unpack-x86_64-apple-darwin": "35fee84fe5d7a66b7e69605d6ff2220aa6309cfd7ff6cd897d5880ebb34cbadb",
+  "venv-aarch64-apple-darwin": "6bf86ce47426e9212065d215e04f6f96fc3e45dc5bc3f072f7707bb23f29bf15",
+  "venv-x86_64-apple-darwin": "5ee71ae98cccef80cb1d2b77ea238a43bc34e4e24f86b7150f8b83ba4a8426eb",
+  "unpack-aarch64-unknown-linux-musl": "9cd6154a511891011778e94281c2f8dd1388273a5f0cdcc588adbf69bf4186eb",
+  "unpack-x86_64-unknown-linux-musl": "cc946841057e196ddc08da5f78991cd16f182400669ee88edcadffdc92fd1617",
+  "venv-aarch64-unknown-linux-musl": "e2bdaf05eb3d4cc4dfdafda8be0d07a38fa8f1d62ad789482b43c92852b183c8",
+  "venv-x86_64-unknown-linux-musl": "ad99c4073ddc58c847154d031ff6c6e97b5c3761983edfd367b2932cb7733923"
 }
